@@ -54,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Login'),
-        backgroundColor: Color.fromARGB(255, 0, 140, 255),
+        backgroundColor: Color.fromRGBO(5, 53, 223, 1),
       ),
       body: SingleChildScrollView(
         child: Container(
@@ -111,7 +111,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       },
                       child: Text('Log in', style: TextStyle(fontSize: 18)),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.blue, // Background color of the button
+                        primary: Color.fromARGB(255, 20, 233, 1), // Background color of the button
                         onPrimary: Colors.white, // Text color of the button
                         shape: RoundedRectangleBorder(
                           borderRadius:
@@ -133,7 +133,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: Text('Create account',
                           style: TextStyle(fontSize: 18)),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.blue, // Background color of the button
+                        primary: Color.fromARGB(255, 244, 6, 6), // Background color of the button
                         onPrimary: Colors.white, // Text color of the button
                         shape: RoundedRectangleBorder(
                           borderRadius:

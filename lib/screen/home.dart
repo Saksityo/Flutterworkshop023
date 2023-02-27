@@ -9,17 +9,21 @@ class Homescreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Home'),
+        backgroundColor: Color.fromRGBO(253, 15, 15, 1),
+      ),
       body: Container(
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Homepage",
+                "Homepage to Saksit Page",
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(255, 48, 162, 255),
+                  color: Color.fromARGB(255, 249, 11, 11),
                 ),
               ),
               SizedBox(height: 20),

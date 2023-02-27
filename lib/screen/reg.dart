@@ -61,9 +61,9 @@ class _RegistrationFormState extends State<RegistrationForm> {
               TextFormField(
                 decoration: const InputDecoration(
                   labelText: 'Username',
-                  labelStyle: TextStyle(color: Colors.blue),
+                  labelStyle: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
                   focusedBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.blue),
+                    borderSide: BorderSide(color: Color.fromARGB(255, 255, 255, 255)),
                   ),
                 ),
                 validator: (value) {
@@ -80,7 +80,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
               TextFormField(
                 decoration: const InputDecoration(
                   labelText: 'Password',
-                  labelStyle: TextStyle(color: Colors.blue),
+                  labelStyle: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.blue),
                   ),
@@ -100,7 +100,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
               TextFormField(
                 decoration: const InputDecoration(
                   labelText: 'Full Name',
-                  labelStyle: TextStyle(color: Colors.blue),
+                  labelStyle: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.blue),
                   ),
@@ -118,7 +118,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
               TextFormField(
                 decoration: const InputDecoration(
                   labelText: 'Email',
-                  labelStyle: TextStyle(color: Colors.blue),
+                  labelStyle: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.blue),
                   ),
@@ -146,7 +146,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
                   ],
                 ),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue, // Background color of the button
+                  primary: Color.fromARGB(255, 0, 255, 42), // Background color of the button
                   onPrimary: Colors.white, // Text color of the button
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(16), // Rounded shape
